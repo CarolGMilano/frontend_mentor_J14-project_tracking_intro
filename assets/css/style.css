@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&display=swap');
+
+@import url('mobile/body.css');
+@import url('mobile/header.css');
+@import url('mobile/main.css');
+
+@import url('desktop/header.css');
+@import url('desktop/main.css');
+
+@import url('max-width/main.css');
+
+:root {
+    --branco-puro: hsl(0, 0%, 100%);
+    --branco-azulado: hsl(207, 33%, 95%);
+    --cinza-claro: hsl(235, 7%, 65%);
+    --cinza-escuro: hsl(230, 11%, 40%);
+    --preto-azulado: hsl(230, 29%, 20%);
+    --vermelho: hsl(0, 100%, 68%);
+
+    --fonte-principal: 'Barlow', sans-serif;
+    --fonte-detalhes: 'Barlow Condensed', sans-serif;
+}

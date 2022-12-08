@@ -1,0 +1,44 @@
+@media screen and (min-width: 1000px) {
+    .corpo {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+
+        margin-top: 5rem;
+    }
+
+    .corpo__conteudo {
+        width: 50vw;
+    }
+
+    .corpo__conteudo .conteudo__img {
+        width: auto;
+        height: auto;
+    
+        transform: translate(calc(50vw - 700px), 0);
+    }
+
+    .corpo__container {
+        align-self: center;
+
+        margin-left: 10rem;
+
+        padding: 0;
+    }
+
+    .corpo__container .container__titulo {
+        width: 300px;
+    }
+
+    .container__btn .btn__demo:hover {
+        opacity: .9;
+        cursor: pointer;
+    }   
+
+    .container__btn .btn__preview:hover {
+        cursor: pointer;
+
+        background-color: var(--branco-azulado);
+
+        border-radius: 5px;
+    }  
+}

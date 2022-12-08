@@ -1,0 +1,13 @@
+@media screen and (min-width: 1440px) {
+    .corpo__conteudo {
+        width: 50vw;
+        padding-right: 10rem;
+    }
+
+    .corpo__conteudo .conteudo__img {
+        width: 900px;
+        height: auto;
+
+        transform: translate(0, 0);
+    }  
+}

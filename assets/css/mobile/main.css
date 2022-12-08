@@ -1,0 +1,121 @@
+.corpo {
+    display: flex;
+    flex-direction: column;
+
+    overflow: hidden;
+}
+
+.corpo__conteudo {
+    margin-top: 2rem;
+}
+
+.corpo__conteudo .conteudo__img {
+    width: 520px;
+    height: auto;
+
+    transform: translate(calc(100vw - 380px), 0);
+}
+
+.corpo__container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 4rem 1.5rem;
+}
+
+.corpo__container .container__textos {
+    display: flex;
+    column-gap: .9rem;
+    align-items: center;
+
+    padding-bottom: 1rem;
+}
+
+.container__textos .textos__new {
+    color: var(--branco-puro);
+    font-weight: 700;
+    font-size: 15px;
+
+    background-color: var(--preto-azulado);
+
+    padding: .2rem .7rem;
+
+    border-radius: 50px;
+}
+
+.container__textos .textos__titulo {
+    font-size: 15px;
+    color: var(--cinza-claro);
+
+    letter-spacing: .4rem;
+}
+
+.container__textos .textos__new,
+.container__textos .textos__titulo {
+    font-family: var(--fonte-detalhes);
+
+    text-transform: uppercase;
+}
+
+.corpo__container .container__titulo {
+    color: var(--preto-azulado);
+    font-family: var(--fonte-detalhes);
+    font-weight: 700;
+    font-size: 40px;
+
+    text-transform: uppercase;
+    
+    padding-bottom: 1rem;
+}
+
+.corpo__container .container__subtitulo {
+    color: var(--cinza-escuro);
+    font-size: 18px;
+    font-weight: 400;
+
+    width: 280px;
+
+    padding-bottom: 2rem;
+}
+
+.corpo__container .container__btn {
+    display: flex;
+    column-gap: 1.3rem;
+}
+
+.container__btn .btn__demo {
+    padding: .8rem 1rem;
+
+    background-color: var(--vermelho);
+
+    border: none;
+    border-radius: 5px;
+
+    color: var(--branco-puro);
+    font-family: var(--fonte-detalhes);
+    font-size: 15px;
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    letter-spacing: .1rem;
+
+    transition: .3s;
+}
+
+.container__btn .btn__preview {
+    padding: .8rem 1rem;
+
+    color: var(--cinza-claro);
+    font-family: var(--fonte-detalhes);
+    font-size: 16px;
+    font-weight: 400;
+
+    text-transform: uppercase;
+
+    border: none;
+
+    background-color: transparent;
+
+    transition: .3s;
+}
